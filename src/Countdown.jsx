@@ -28,7 +28,7 @@ const Countdown = () => {
     <div
       className="min-h-screen flex flex-col justify-between items-center py-10"
       style={{
-        backgroundImage: `url('./src/assets/khushi1.jpg')`, // Use the same background image
+        backgroundImage: `url('/khushi1.jpg')`, // Use the same background image
         backgroundSize: 'cover', // Ensure the image covers the entire screen
         backgroundPosition: 'center', // Center the image
         backgroundAttachment: 'fixed', // Keep the background fixed during scroll

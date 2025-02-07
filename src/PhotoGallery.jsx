@@ -2,18 +2,18 @@ import React, { useState } from 'react';
 
 function PhotoGallery() {
     const photos = [
-        { src: '/src/assets/khushi15.jpg' },
-        { src: '/src/assets/khushi2.jpg' },
-        { src: '/src/assets/khushi14.jpg' },
-        { src: '/src/assets/khushi4.jpg' },
-        { src: '/src/assets/khushi5.jpg' },
-        { src: '/src/assets/khushi6.jpg' },
-        { src: '/src/assets/khushi7.jpg' },
-        { src: '/src/assets/khushi8.jpg' },
-        { src: '/src/assets/khushi9.jpg' },
-        { src: '/src/assets/khushi10.jpg' },
-        { src: '/src/assets/khushi11.jpg' },
-        { src: '/src/assets/khushi16.jpg' },
+        { src: '/khushi15.jpg' },
+        { src: '/khushi2.jpg' },
+        { src: '/khushi14.jpg' },
+        { src: '/khushi4.jpg' },
+        { src: '/khushi5.jpg' },
+        { src: '/khushi6.jpg' },
+        { src: '/khushi7.jpg' },
+        { src: '/khushi8.jpg' },
+        { src: '/khushi9.jpg' },
+        { src: '/khushi10.jpg' },
+        { src: '/khushi11.jpg' },
+        { src: '/khushi16.jpg' },
     ];
 
     const [clickedImage, setClickedImage] = useState(null);
