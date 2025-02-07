@@ -85,7 +85,7 @@ const questions = [
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center py-10" style={{ backgroundImage: 'url(/khushi4.jpg)', backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
+    <div className="min-h-screen flex justify-center items-center py-10" style={{ backgroundImage: 'url(khushi4.jpg)', backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
       <div className="space-y-8 px-6 py-8 max-w-xl w-full bg-white rounded-xl shadow-2xl backdrop-blur-lg">
         <h2 className="text-4xl font-serif text-center text-pink-600 mb-8 animate-fadeIn font-bold">💖 Love Quiz 💖</h2>
         <p className="text-xl text-center text-gray-700 mb-4">Let's see how well you know our love story!</p>

@@ -4,7 +4,6 @@ const Countdown = () => {
   const [timeLeft, setTimeLeft] = useState('');
 
   useEffect(() => {
-    // Set the next Eid date (example: Eid al-Fitr on April 10, 2025)
     const countdownDate = new Date('2025-03-31T00:00:00').getTime();
 
     const interval = setInterval(() => {
@@ -17,7 +16,9 @@ const Countdown = () => {
       } else {
         const days = Math.floor(distance / (1000 * 60 * 60 * 24));
         const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        setTimeLeft(`${days} days ${hours} hours left until we meet. ❤️`);
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        setTimeLeft(`${days} days ${hours} hours ${minutes} minutes ${seconds} seconds left until we meet. ❤️`);
       }
     }, 1000);
 
